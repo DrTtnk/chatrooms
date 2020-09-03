@@ -45,7 +45,7 @@ export default ({ location }: { location: Location }) => {
     const [currentUser, setName]  = useState("");
     const [message, setMessage]   = useState("");
     const [typingUser, setTypingUser] = useState<string|null>(null);
-    const [messages, setMessages] = useState([] as IncomingMessage[]);
+    const [messages, setMessages] = useState<IncomingMessage[]>([]);
 
 
     useEffect(() => {

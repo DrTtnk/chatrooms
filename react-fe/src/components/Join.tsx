@@ -16,5 +16,6 @@ export default () => {
                     <button className="button mt-20" type="submit">Join</button>
                 </Link>
             </div>
-        </div>)
+        </div>
+    )
 }
